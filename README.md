@@ -72,7 +72,7 @@ gon.push({ :user_id => 1, :user_role => "admin" })
 #### RablRails example
 
 ```ruby
-respond_with @posts, gon: { rabl: {} }
+respond_with @posts, gon: :rabl
 ```
 
 Which equals to
